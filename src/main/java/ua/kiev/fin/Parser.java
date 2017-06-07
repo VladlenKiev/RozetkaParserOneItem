@@ -33,7 +33,7 @@ public class Parser {
             if(element.toString().contains("reviewCount"))
                 map.put("reviewCount", parsingValue(element));
 
-            if(element.toString().contains("ratingValue")&&!element.toString().contains("1"))
+            if(element.toString().contains("bestRating"))
                 map.put("ratingValue",parsingValue(element));
 
             if(element.toString().contains("price")&&!element.toString().contains("priceCurrency"))
